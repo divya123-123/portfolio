@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,300&display=swap');
+
+body{
+    text-align: center;
+   background-image: url('/images/lc.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgb(51, 4, 4);
+    height: 110px;
+    padding: 15px;
+}
+h1{
+    color: aliceblue;
+}
+ul li{
+    display: inline;
+    color: rgb(124, 182, 234);
+    padding: 20px;
+}
+ul li a{
+    color:rgb(127, 138, 255);
+    text-decoration: none;
+}
+#home img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#Portfolio{
+  height: auto;
+}
+#Contact form{
+    width: 360px;
+    padding: 20px;
+  }
+  
+  .img-container {
+    float: left;
+    width: 130px;
+   
+   
+  }
+  .img-container{
+    margin-left: 200px;
+   
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display:block;
+  }
+  
+  footer{
+    background-color: darkslategrey;
+    color: #fff;
+    padding: 20px;
+  }
